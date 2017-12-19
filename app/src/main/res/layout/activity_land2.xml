@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_result2"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:gravity="right|bottom"
+        android:text="@string/tv_result2"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <View
+        android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#404040"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_display2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.63"
+        android:singleLine="false"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:gravity="right|top"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/ic_huisejian"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/digit_continue"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/press_jixu"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/digit_cleanup"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="240dp"
+            android:background="@drawable/press_qinchu"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

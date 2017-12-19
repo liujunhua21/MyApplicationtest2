@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="tv_display">0</string>
+    <string name="tv_display2">0</string>
+    <string name="tv_result2">0</string>
+    <string name="tv_result">0</string>
+</resources>
